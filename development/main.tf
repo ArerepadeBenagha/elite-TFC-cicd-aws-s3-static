@@ -199,7 +199,7 @@ resource "aws_cloudfront_distribution" "root_s3_distribution" {
 
 ////////////DNS
 data "aws_route53_zone" "main" {
-  name         = "elietesolutionsit.de"
+  name         = "elitelabtools.com"
   private_zone = false
 }
 
